@@ -2453,3 +2453,14 @@ textarea {
 	color: white;
   background: var(--accent);
 }
+
+@media(min-width:992px) {
+.inner {
+	width: 415px !important;
+}
+}
+
+.inner-2 {
+background-color: transparent;
+padding: unset;
+}
