@@ -2460,6 +2460,12 @@ textarea {
 }
 }
 
+@media(min-width:768px) {
+.inner {
+	width: 312px !important;
+}
+}
+
 .inner-2 {
 background-color: transparent;
 padding: unset;
