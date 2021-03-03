@@ -550,6 +550,19 @@ a.com:hover {
 	text-decoration: none;
 }
 
+.add {
+	color: var(--accent);
+	font-size: 17px;
+	text-decoration: none;
+	display: inline;
+}
+
+.add:hover {
+	transition-duration: 0.2s;
+	color: var(--accent-hover);
+	text-decoration: none;
+}
+
 div.caption a, div.l-cardcontent a, div.titlework-3 a {
 	color: var(--accent);
 }
