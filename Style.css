@@ -485,7 +485,7 @@ a:hover {
 	min-height: calc(100vh - 80px) !important;
 }
 
-a.button {
+.button {
 	background-color: var(--accent);
 	color: white;
 	padding: 6px 18px;
@@ -497,12 +497,12 @@ a.button {
 	box-shadow: 0 3px 14px rgba(0,0,0,0.27);
 }
 
-a.button:hover, a.button-right:hover{
+.button:hover, .button-right:hover{
 	background-color: var(--accent-hover);
 	text-decoration: none;
 }
 
-a.button-right {
+.button-right {
 	display: none !important;
     background-color: var(--accent);
     color: white;
@@ -520,7 +520,7 @@ div.middle-links {
     justify-content: center;
     margin-left: -70px;
 }
-a.button-middle {
+.button-middle {
 	display: none !important;
     color: var(--text);
     padding: 7px 16px;
