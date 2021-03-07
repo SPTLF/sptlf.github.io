@@ -1920,8 +1920,9 @@ input[type=submit]:hover {
 }
 
 input[type=text]:hover, input[type=email]:hover, select:hover, textarea:hover {
-	background-color: var(--border-color);
+	background-color: var(--highlight-color);
 	transition: 0.1s ease-out;
+	box-shadow: 0 3px 14px rgb(0 0 0 / 18%);
 }
 
 textarea {
