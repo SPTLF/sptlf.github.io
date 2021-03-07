@@ -166,6 +166,7 @@ summary {
 	--background-color: rgba(245, 245, 245, 1);
 	--secondary-color: #f2f2f2;
 	--border-color: rgba(0, 0, 0, 0.1);
+	--highlight-color: rgba(185, 185, 185, 0.1);;
 	--target: #ffff99;
 	--button-color: #ffffff;
 	--button-hover: #ffffff;
@@ -184,6 +185,7 @@ summary {
 		--background-color: #000000;
 		--secondary-color: #2f3137;
 		--border-color: rgba(220, 230, 250, 0.1);
+		--highlight-color: rgba(220, 230, 250, 0.1);
 		--target: #333300;
 		--button-color: #232529;
 		--button-hover: #5e616e;
@@ -1961,8 +1963,9 @@ textarea {
 }
 
 .container-2:hover input ~ .checkmark {
-	background-color: var(--border-color);
+	background-color: var(--highlight-color);
 	transition: 0.1s ease-out;
+	box-shadow: 0 3px 14px rgb(0 0 0 / 18%);
 }
 
 .container-2 input:checked ~ .checkmark {
