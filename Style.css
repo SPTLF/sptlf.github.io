@@ -2044,5 +2044,5 @@ textarea {
 
 :focus {
 	outline-style: none;
-	box-shadow: 0 0 0 2pt var(--accent-hover);
+	box-shadow: 0 0 0 2pt var(--accent-hover) !important;
 }
