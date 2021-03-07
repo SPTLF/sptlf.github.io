@@ -1910,6 +1910,7 @@ input[type=text], input[type=email], select, textarea {
 	background-color: var(--secondary-color);
 	color: var(--text);
 	outline-color: var(--accent);
+	transition: 0.3s ease-out;
 }
 
 select {
@@ -1933,11 +1934,6 @@ input[type=submit] {
 	height: 36px;
 }
 
-input[type=submit]:hover {
-	background-color: var(--accent-hover);
-	box-shadow: 0 3px 14px rgb(0 0 0 / 27%);
-}
-
 .container {
 	border-radius: 15px;
 	background-color: var(--button-color);
@@ -1945,7 +1941,6 @@ input[type=submit]:hover {
 
 input[type=text]:hover, input[type=email]:hover, select:hover, textarea:hover {
 	background-color: var(--highlight-color);
-	transition: 0.1s ease-out;
 	box-shadow: 0 10px 34px rgb(0 0 0 / 10%);
 }
 
@@ -1989,13 +1984,13 @@ textarea {
 
 .container-2:hover input ~ .checkmark {
 	background-color: var(--highlight-color);
-	transition: 0.1s ease-out;
+	transition: 0.2s ease-out;
 	box-shadow: 0 4px 18px rgb(0 0 0 / 14%);
 }
 
 .container-2 input:checked ~ .checkmark {
 	background-color: var(--accent);
-	transition: 0.1s ease-out;
+	transition: 0.3s ease-out;
 }
 
 .checkmark:after {
