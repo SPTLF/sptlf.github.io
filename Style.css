@@ -166,7 +166,7 @@ summary {
 	--background-color: rgba(245, 245, 245, 1);
 	--secondary-color: #f2f2f2;
 	--border-color: rgba(0, 0, 0, 0.1);
-	--highlight-color: rgba(185, 185, 185, 0.1);;
+	--highlight-color: rgba(255, 255, 255, 1);;
 	--target: #ffff99;
 	--button-color: #ffffff;
 	--button-hover: #ffffff;
@@ -1922,7 +1922,7 @@ input[type=submit]:hover {
 input[type=text]:hover, input[type=email]:hover, select:hover, textarea:hover {
 	background-color: var(--highlight-color);
 	transition: 0.1s ease-out;
-	box-shadow: 0 3px 14px rgb(0 0 0 / 18%);
+	box-shadow: 0 12px 29px rgb(0 0 0 / 12%);
 }
 
 textarea {
@@ -1966,7 +1966,7 @@ textarea {
 .container-2:hover input ~ .checkmark {
 	background-color: var(--highlight-color);
 	transition: 0.1s ease-out;
-	box-shadow: 0 3px 14px rgb(0 0 0 / 18%);
+	box-shadow: 0 4px 18px rgb(0 0 0 / 14%);
 }
 
 .container-2 input:checked ~ .checkmark {
