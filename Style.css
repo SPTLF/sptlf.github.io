@@ -1688,39 +1688,63 @@ div.right {
 }
 
 :target {
-	animation: target-fade ease 0.4s;
-	-webkit-animation: target-fade ease 0.4s;
-	-moz-animation: target-fade ease 0.4s;
+	animation: target-fade ease-out 1s;
+	-webkit-animation: target-fade ease-out 1s;
+	-moz-animation: target-fade ease-out 1s;
 }
 
 @keyframes target-fade {
-	from {
+	0% {
+		background-color: var(--button-color);
+		transform: scale(1,1);
+	}
+	50% {
+		background-color: var(--button-color);
+		transform: scale(1,1);
+	}
+	60% {
 		background-color: var(--target);
 		transform: scale(1.1,1.1);
 	}
-	to {
+	100% {
 		background-color: var(--button-color);
 		transform: scale(1,1);
 	}
 }
 
 @-webkit-keyframes target-fade {
-	from {
+	0% {
+		background-color: var(--button-color);
+		transform: scale(1,1);
+	}
+	50% {
+		background-color: var(--button-color);
+		transform: scale(1,1);
+	}
+	60% {
 		background-color: var(--target);
 		transform: scale(1.1,1.1);
 	}
-	to {
+	100% {
 		background-color: var(--button-color);
 		transform: scale(1,1);
 	}
 }
 
 @-moz-keyframes target-fade {
-	from {
+	0% {
+		background-color: var(--button-color);
+		transform: scale(1,1);
+	}
+	50% {
+		background-color: var(--button-color);
+		transform: scale(1,1);
+	}
+	60% {
 		background-color: var(--target);
 		transform: scale(1.1,1.1);
 	}
-	to {
+	100% {
 		background-color: var(--button-color);
 		transform: scale(1,1);
 	}
@@ -2042,7 +2066,7 @@ textarea {
 	padding: unset;
 }
 
-:focus {
+input:focus, select:focus, textarea:focus {
 	outline-style: none;
 	box-shadow: inset 0px 0px 1px 2px var(--accent-hover) !important;
 }
