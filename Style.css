@@ -328,7 +328,6 @@ a.button-right {
 	box-shadow: 0 6px 22px rgb(0 0 0 / 18%);
 	float: right;
 	height: 22px;
-	border: 1px solid var(--border-color);
 }
 
 div.middle-links {
