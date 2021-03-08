@@ -378,6 +378,7 @@ a.com:hover {
 	transition: 0.3s ease-out;
 	padding: 6px 17px;
 	border-radius: 30px;
+	border: 1px solid transparent;
 }
 
 .add:hover {
