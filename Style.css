@@ -1357,7 +1357,7 @@ a.home {
 	margin: clamp(0px,1vw,4px);
 	border-radius: 15px;
 	text-align: center;
-	box-shadow: 0 5px 14px rgb(0 0 0 / 18%);
+	box-shadow: 0 8px 30px rgb(0 0 0 / 16%);
 }
 
 a.home:hover {
@@ -1383,7 +1383,7 @@ a.home-2 {
 	margin-bottom: 14px;
 	border-radius: 15px;
 	text-align: center;
-	box-shadow: 0 5px 14px rgb(0 0 0 / 18%);
+	box-shadow: 0 8px 30px rgb(0 0 0 / 16%);
 }
 
 img.home {
@@ -1524,10 +1524,10 @@ span.header {
 		height: clamp(0px, 14.5vw, 146px);
 		width: clamp(0px, 14.5vw, 146px);
 		line-height: clamp(0px, 20vw, 190px);
-		box-shadow: 0 5px 14px rgb(0 0 0 / 0%);
+		box-shadow: 0 8px 30px rgb(0 0 0 / 0%);
 	}
 	a.home:hover {
-		box-shadow: 0 5px 14px rgb(0 0 0 / 18%);
+		box-shadow: 0 8px 30px rgb(0 0 0 / 16%);
 	}
 	div.titlework {
 		height: clamp(0px, 30vw, 300px);
