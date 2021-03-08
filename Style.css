@@ -165,7 +165,7 @@ summary {
 :root {
 	--background-color: rgba(245, 245, 245, 1);
 	--secondary-color: #f7f7f7;
-	--border-color: rgba(0, 0, 0, 0.1);
+	--border-color: rgba(50, 50, 50, 0.1);
 	--highlight-color: rgba(205, 205, 205, 0.1);
 	--target: #ffff99;
 	--button-color: #ffffff;
@@ -378,7 +378,6 @@ a.com:hover {
 	transition: 0.3s ease-out;
 	padding: 6px 17px;
 	border-radius: 30px;
-	border: 1px solid transparent;
 }
 
 .add:hover {
@@ -386,7 +385,6 @@ a.com:hover {
 	text-decoration: none;
 	box-shadow: 0 7px 26px rgb(0 0 0 / 12%);
 	background: var(--button-hover);
-	border: 1px solid var(--border-color);
 }
 
 div.caption a, div.l-cardcontent a, div.titlework-3 a {
