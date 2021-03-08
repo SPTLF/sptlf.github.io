@@ -188,7 +188,7 @@ summary {
 		--highlight-color: rgba(220, 230, 250, 0.1);
 		--target: #333300;
 		--button-color: #232529;
-		--button-hover: #5e616e;
+		--button-hover: #353540;
 		--text: #ffffff;
 		--text-light: #8a8b8f;
 		--text-lighter: #898989;
@@ -373,7 +373,6 @@ a.com:hover {
 	text-decoration: none;
 	display: inline;
 	border: none;
-	background: transparent;
 	transition: 0.3s ease-out;
 	padding: 6px 17px;
 	border-radius: 30px;
@@ -383,6 +382,7 @@ a.com:hover {
 	color: var(--accent-hover);
 	text-decoration: none;
 	box-shadow: 0 7px 26px rgb(0 0 0 / 12%);
+	background: var(--button-hover);
 }
 
 div.caption a, div.l-cardcontent a, div.titlework-3 a {
