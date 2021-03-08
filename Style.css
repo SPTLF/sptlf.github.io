@@ -373,12 +373,15 @@ a.com:hover {
 	display: inline;
 	border: none;
 	background: transparent;
+	transition: 0.3s ease-out;
+	padding: 6px 17px;
+	border-radius: 30px;
 }
 
 .add:hover {
-	transition-duration: 0.2s;
 	color: var(--accent-hover);
 	text-decoration: none;
+	box-shadow: 0 7px 26px rgb(0 0 0 / 12%);
 }
 
 div.caption a, div.l-cardcontent a, div.titlework-3 a {
