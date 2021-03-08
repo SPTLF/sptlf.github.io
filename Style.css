@@ -309,7 +309,7 @@ a.button {
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 30px;
-	box-shadow: 0 3px 14px rgba(0,0,0,0.27);
+	box-shadow: 0 6px 22px rgb(0 0 0 / 18%)
 }
 
 a.button:hover, a.button-right:hover {
@@ -325,7 +325,7 @@ a.button-right {
 	text-align: center;
 	text-decoration: none;
 	border-radius: 30px;
-	box-shadow: 0 3px 14px rgb(0 0 0 / 27%);
+	box-shadow: 0 6px 22px rgb(0 0 0 / 18%);
 	float: right;
 	height: 22px;
 }
@@ -1500,9 +1500,6 @@ span.header {
 }
 
 @media(min-width:768px) {
-	.indicator-scroll, .indicator-scroll span{
-		display: block
-	}
 	.card-top {
 		position: static !important;
 	}
@@ -1582,10 +1579,10 @@ span.header {
 		box-shadow: 0 2px 11px rgba(0,0,0,17%);
 	}
 	a.button, a.button-right {
-		box-shadow: 0 3px 14px rgba(0,0,0,0);
+		box-shadow: 0 6px 22px rgb(0 0 0 / 0%);
 	}
 	a.button:hover, a.button-right:hover {
-		box-shadow: 0 1px 7px rgba(0,0,0,0.27);
+		box-shadow: 0 6px 22px rgb(0 0 0 / 18%);
 	}
 	span.header, a.button-right {
 		display: block !important;
