@@ -1073,7 +1073,7 @@ p.profile3 {
 	margin-left: 15px;
 	border-radius: 50%;
 	text-align: center;
-	box-shadow: 0 2px 11px rgba(0,0,0,0.17);
+	box-shadow: 0 5px 22px rgb(0 0 0 / 17%);
 }
 
 .footer-social a:hover {
@@ -1573,10 +1573,10 @@ span.header {
 		opacity: 1;
 	}
 	.footer-social a {
-		box-shadow: 0 2px 11px rgba(0,0,0,0);
+		box-shadow: 0 5px 22px rgb(0 0 0 / 0%);
 	}
 	.footer-social a:hover {
-		box-shadow: 0 2px 11px rgba(0,0,0,17%);
+		box-shadow: 0 5px 22px rgb(0 0 0 / 17%);
 	}
 	a.button, a.button-right {
 		box-shadow: 0 6px 22px rgb(0 0 0 / 0%);
