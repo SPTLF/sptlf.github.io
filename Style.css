@@ -183,11 +183,11 @@ summary {
 @media (prefers-color-scheme: dark) {
 	:root {
 		--background-color: #000000;
-		--secondary-color: #2f3137;
+		--secondary-color: #2F3135;
 		--border-color: rgba(220, 230, 250, 0.1);
 		--highlight-color: rgba(220, 230, 250, 0.1);
 		--target: #333300;
-		--button-color: #232529;
+		--button-color: #232527;
 		--button-hover: #353540;
 		--text: #ffffff;
 		--text-light: #8a8b8f;
