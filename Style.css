@@ -183,7 +183,7 @@ summary {
 @media (prefers-color-scheme: dark) {
 	:root {
 		--background-color: #000000;
-		--secondary-color: #2F3135;
+		--secondary-color: #2F3032;
 		--border-color: rgba(220, 230, 250, 0.1);
 		--highlight-color: rgba(220, 230, 250, 0.1);
 		--target: #333300;
