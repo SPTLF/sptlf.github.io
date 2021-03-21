@@ -2058,7 +2058,7 @@ textarea {
 
 .inner-2 {
 	background-color: transparent;
-	padding: unset;
+	padding: 2px 0px 4px;
 	box-shadow: 0 6px 16px rgb(0 0 0 / 0%);
 }
 
