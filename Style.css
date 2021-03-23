@@ -2046,6 +2046,10 @@ textarea {
 	background: var(--accent);
 }
 
+.inner {
+	text-align: left !important;
+}
+
 @media only screen and (min-width:992px) {
 	.inner {
 		width: 568px !important;
