@@ -2046,15 +2046,10 @@ textarea {
 	background: var(--accent);
 }
 
-@media only screen and (min-width:768px) {
-	.inner {
-		width: 312px !important;
-	}
-}
-
 @media only screen and (min-width:992px) {
 	.inner {
-		width: 415px !important;
+		width: 568px !important;
+		margin: 0 auto;
 	}
 }
 
