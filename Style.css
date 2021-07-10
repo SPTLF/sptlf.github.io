@@ -1037,9 +1037,10 @@ p.profile3 {
 		justify-content: space-between;
 		align-items: flex-end;
 	}
-}
-@media(min-width:768px) {
 	.footer-social {
+		text-align: right;
+	}
+	.footer-right {
 		text-align: right;
 	}
 }
