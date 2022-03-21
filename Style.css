@@ -1298,7 +1298,6 @@ li.slot-mobile:last-child {
 
 .titlework {
 	height: 45vw;
-	width: calc(90vw + clamp(0px, 2vw, 8px));
 	background-color: unset;
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -1524,6 +1523,7 @@ span.header {
 	div.subteam-2 {
 		width: clamp(0px, 31vw, 308px);
 		height: clamp(0px, 30vw, 300px);
+		display: none;
 	}
 	a.home {
 		height: clamp(0px, 14.5vw, 146px);
