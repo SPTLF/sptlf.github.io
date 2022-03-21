@@ -1773,6 +1773,12 @@ div.rank {
 /* Header | MIT License | Made by Erik Terwan
 ========================================================================== */
 
+@media screen and (min-width: 768px){
+	#menuToggle {
+		display:none;
+	}
+}
+
 #menuToggle {
 	display: block;
 	position: relative;
