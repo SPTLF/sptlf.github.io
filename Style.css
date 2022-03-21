@@ -177,7 +177,6 @@ summary {
 	--accent-hover: #FF668C;
 	--header: rgba(245, 245, 245, 0.9);
 	--header-shadow: 0px 7px 8px -13px rgb(0 0 0);
-	--scrollbar-hover: #4d4d4d;
 	--progress: rgba(220,220,220,1);
 }
 
@@ -197,7 +196,6 @@ summary {
 		--accent-hover: #FF668C;
 		--header: rgba(0, 0, 0, 0.9);
 		--header-shadow: 0px 0px 1px 0px rgb(255, 255, 255, 0.4);
-		--scrollbar-hover: #b3b3b3;
 		--progress: rgba(40,40,40,1);
 	}
 	.footer-social img {
@@ -1770,41 +1768,6 @@ div.left div {
 
 div.rank {
 	background: var(--text) !important;
-}
-
-/* Scrollbar
-========================================================================== */
-
-* {
-	scrollbar-width: 0.7em;
-	scrollbar-height: 0.7em;
-	scrollbar-color: grey var(--background-color);
-	-ms-overflow-style: none;
-	scrollbar-width: none;
-}
-
-*::-webkit-scrollbar {
-	width: 0.7em;
-	height: 0.7em;
-	display: unset;
-}
-
-*::-webkit-scrollbar-track {
-	background: var(--background-color);
-}
-
-*::-webkit-scrollbar-thumb {
-	background-color: var(--text-light);
-}
-
-*::-webkit-scrollbar-thumb:hover {
-	background-color: var(--scrollbar-hover);
-}
-
-@media(min-width:768px) {
-	#menuToggle {
-		display: none !important;
-	}
 }
 
 /* Header | MIT License | Made by Erik Terwan
