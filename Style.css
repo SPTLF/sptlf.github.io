@@ -1537,6 +1537,7 @@ span.header {
 	div.titlework {
 		height: clamp(0px, 30vw, 300px);
 		width: 100%;
+		margin-bottom: 85px;
 		-webkit-border-radius: 15px;
 		-moz-border-radius: 15px;
 		border-radius: 15px;
