@@ -1299,6 +1299,7 @@ li.slot-mobile:last-child {
 
 .titlework {
 	height: 45vw;
+	width: calc(90vw + clamp(0px, 2vw, 8px));
 	background-color: unset;
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -1537,7 +1538,7 @@ span.header {
 	}
 	div.titlework {
 		height: clamp(0px, 30vw, 300px);
-		width: calc(clamp(0px, 60vw, 600px) + clamp(0px, 2vw, 8px));
+		width: 100%;
 		-webkit-border-radius: 15px;
 		-moz-border-radius: 15px;
 		border-radius: 15px;
