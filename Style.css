@@ -885,7 +885,8 @@ h3.notecount {
 .entry-footer {
 	color: var(--text-light);
 	font-size: 95%;
-	margin-top: -1em
+	margin-top: -1em;
+	display: none;
 }
 
 .entry-footer a {
