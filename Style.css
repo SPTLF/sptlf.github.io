@@ -173,8 +173,8 @@ summary {
 	--text: #000000;
 	--text-light: #7b7b85;
 	--text-lighter: #808080;
-	--accent: #F12F5F;
-	--accent-hover: #FF668C;
+	--accent: #f7d648;
+	--accent-hover: #ffed9e;
 	--header: rgba(245, 245, 245, 0.9);
 	--header-shadow: 0px 7px 8px -13px rgb(0 0 0);
 	--progress: rgba(220,220,220,1);
@@ -192,8 +192,8 @@ summary {
 		--text: #ffffff;
 		--text-light: #8a8b8f;
 		--text-lighter: #898989;
-		--accent: #F12F5F;
-		--accent-hover: #FF668C;
+	--accent: #f7d648;
+	--accent-hover: #ffed9e;
 		--header: rgba(0, 0, 0, 0.9);
 		--header-shadow: 0px 0px 1px 0px rgb(255, 255, 255, 0.4);
 		--progress: rgba(40,40,40,1);
@@ -308,7 +308,7 @@ a.button {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	border-radius: 30px;
+	border-radius: 4px;
 	box-shadow: 0 6px 22px rgb(0 0 0 / 18%);
 }
 
@@ -324,7 +324,7 @@ a.button-right {
 	padding: 6px 17px;
 	text-align: center;
 	text-decoration: none;
-	border-radius: 30px;
+	border-radius: 4px;
 	box-shadow: 0 6px 22px rgb(0 0 0 / 18%);
 	float: right;
 	height: 22px;
@@ -375,7 +375,7 @@ a.com:hover {
 	border: none;
 	transition: 0.3s ease-out;
 	padding: 6px 17px;
-	border-radius: 30px;
+	border-radius: 4px;
 }
 
 .add:hover {
@@ -865,7 +865,7 @@ span.meta-elements {
 	padding-top: 100px;
 	background-color: var(--background-color);
 	height: 200px;
-	border-radius: 15px;
+	border-radius: 4px;
 }
 
 @media(min-width:768px) {
@@ -1131,10 +1131,10 @@ p.profile3 {
 	width: 246px;
 	height: 246px;
 	overflow:hidden;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	-khtml-border-radius: 15px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-khtml-border-radius: 4px;
 	animation: coverreveal ease 0.3s;
 	-webkit-animation: coverreveal ease 0.3s;
 	-moz-animation: coverreveal ease 0.3s;
@@ -1147,10 +1147,10 @@ p.profile3 {
 	width: 45vw;
 	height: 45vw;
 	overflow: hidden;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	-khtml-border-radius: 15px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-khtml-border-radius: 4px;
 	animation: coverreveal ease-out 0.3s;
 	-webkit-animation: coverreveal ease-out 0.3s;
 	-moz-animation: coverreveal ease-out 0.3s;
@@ -1160,10 +1160,10 @@ p.profile3 {
 }
 
 .slot-container-2{
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	-khtml-border-radius: 15px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-khtml-border-radius: 4px;
 	box-shadow: 0 5px 14px rgb(0 0 0 / 18%);
 	display: inline-block;
 	margin-left: 7px;
@@ -1171,10 +1171,10 @@ p.profile3 {
 }
 
 .slot-container-2-desktop{
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	-khtml-border-radius: 15px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-khtml-border-radius: 4px;
 	box-shadow: 0 5px 14px rgb(0 0 0 / 18%);
 	display: inline-block;
 	margin-left: clamp(0px, 1vw, 4px);
@@ -1299,10 +1299,10 @@ li.slot-mobile:last-child {
 	height: 45vw;
 	width: calc(90vw + clamp(0px, 2vw, 8px));
 	background-color: unset;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	-khtml-border-radius: 15px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-khtml-border-radius: 4px;
 	box-shadow: 0 5px 14px rgb(0 0 0 / 0%);
 	display: inline-block;
 	margin-left: clamp(0px, 1vw, 4px);
@@ -1359,7 +1359,7 @@ a.home {
 	display: inline-block;
 	line-height: clamp(72px, 26vw, 218px);
 	margin: clamp(0px,1vw,4px);
-	border-radius: 15px;
+	border-radius: 4px;
 	text-align: center;
 	box-shadow: 0 8px 30px rgb(0 0 0 / 16%);
 }
@@ -1385,7 +1385,7 @@ a.home-2 {
 	margin-left: 7px;
 	margin-right: 7px;
 	margin-bottom: 14px;
-	border-radius: 15px;
+	border-radius: 4px;
 	text-align: center;
 	box-shadow: 0 8px 30px rgb(0 0 0 / 16%);
 }
@@ -1538,10 +1538,10 @@ span.header {
 		height: clamp(0px, 30vw, 300px);
 		width: 100%;
 		margin-bottom: 85px;
-		-webkit-border-radius: 15px;
-		-moz-border-radius: 15px;
-		border-radius: 15px;
-		-khtml-border-radius: 15px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-khtml-border-radius: 4px;
 		font-weight: bold;
 		font-size: clamp(0px, 10vw, 100px);
 		text-align: center;
@@ -1568,10 +1568,10 @@ span.header {
 		/* Hidden by default. */
 		opacity: 0;
 		transition: opacity 500ms;
-		-webkit-border-radius: 15px;
-		-moz-border-radius: 15px;
-		border-radius: 15px;
-		-khtml-border-radius: 15px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-khtml-border-radius: 4px;
 	}
 
 	.slot-container-2-desktop:hover::before {
@@ -1621,10 +1621,10 @@ div.cardbox {
 	height: 45vw;
 	width: calc(90vw + clamp(0px, 2vw, 8px));
 	background-color: var(--button-color);
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	-khtml-border-radius: 15px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-khtml-border-radius: 4px;
 	box-shadow: 0 5px 14px rgb(0 0 0 / 0%);
 	display: inline-block;
 	margin-left: clamp(0px, 1vw, 4px);
@@ -1661,7 +1661,7 @@ div.cardbox {
 
 .l-cardcontent {
 	background-color: var(--button-color);
-	border-radius: 15px;
+	border-radius: 4px;
 	box-sizing: border-box;
 	padding: 46px 32px 64px;
 	position: relative;
@@ -1876,7 +1876,7 @@ input[type=text], input[type=email], select, textarea {
 	width: 100%;
 	padding: 12px;
 	border: 1px solid var(--border-color);
-	border-radius: 15px;
+	border-radius: 4px;
 	box-sizing: border-box;
 	margin-top: -4px !important;
 	margin-bottom: 18px !important;
@@ -1903,13 +1903,13 @@ input[type=submit] {
 	cursor: pointer;
 	transition: 0.2s;
 	padding: 6px 17px;
-	border-radius: 30px;
+	border-radius: 4px;
 	height: 40px;
 	border: 1px solid var(--border-color);
 }
 
 .container {
-	border-radius: 15px;
+	border-radius: 4px;
 	background-color: var(--button-color);
 }
 
@@ -1948,7 +1948,7 @@ textarea {
 .checkmark {
 	position: absolute;
 	border: 1px solid var(--border-color);
-	border-radius: 6px;
+	border-radius: 4px;
 	top: 0;
 	left: 0;
 	height: 16px;
