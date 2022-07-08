@@ -163,21 +163,21 @@ summary {
 ========================================================================== */
 
 :root {
-	--background-color: rgba(245, 245, 245, 1);
-	--secondary-color: #f7f7f7;
-	--border-color: rgba(50, 50, 50, 0.1);
-	--highlight-color: rgba(205, 205, 205, 0.1);
-	--target: #ffff77;
-	--button-color: #ffffff;
-	--button-hover: #ffffff;
-	--text: #000000;
-	--text-light: #7b7b85;
-	--text-lighter: #808080;
+	--background-color: #000000;
+	--secondary-color: #2F3032;
+	--border-color: rgba(220, 230, 250, 0.1);
+	--highlight-color: rgba(220, 230, 250, 0.1);
+	--target: #cfa000;
+	--button-color: #232527;
+	--button-hover: #353540;
+	--text: #ffffff;
+	--text-light: #8a8b8f;
+	--text-lighter: #898989;
 	--accent: #f7d648;
 	--accent-hover: #ffed9e;
-	--header: rgba(245, 245, 245, 0.9);
-	--header-shadow: 0px 7px 8px -13px rgb(0 0 0);
-	--progress: rgba(220,220,220,1);
+	--header: rgba(0, 0, 0, 0.9);
+	--header-shadow: 0px 0px 1px 0px rgb(255, 255, 255, 0.4);
+	--progress: rgba(40,40,40,1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -192,8 +192,8 @@ summary {
 		--text: #ffffff;
 		--text-light: #8a8b8f;
 		--text-lighter: #898989;
-	--accent: #f7d648;
-	--accent-hover: #ffed9e;
+		--accent: #f7d648;
+		--accent-hover: #ffed9e;
 		--header: rgba(0, 0, 0, 0.9);
 		--header-shadow: 0px 0px 1px 0px rgb(255, 255, 255, 0.4);
 		--progress: rgba(40,40,40,1);
