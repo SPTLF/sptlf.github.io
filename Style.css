@@ -316,9 +316,12 @@ a:hover {
 a.button {
 	background-color: var(--accent);
 	color: black;
-	padding: 6px 18px;
-	font-size: 17px;
+	padding: 9px 19px 8px;
+	font-size: 14px;
 	text-align: center;
+	height: 24px;
+	text-transform: uppercase;
+	font-weight: 500;
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 4px;
@@ -334,13 +337,15 @@ a.button-right {
 	display: none !important;
 	background-color: var(--accent);
 	color: black;
-	padding: 6px 17px;
+	padding: 9px 19px 6px;
 	text-align: center;
 	text-decoration: none;
+	font-weight: 500;
 	border-radius: 4px;
 	box-shadow: 0 6px 22px rgb(0 0 0 / 18%);
 	float: right;
-	height: 22px;
+	height: 24px;
+	text-transform: uppercase;
 }
 
 div.middle-links {
@@ -368,7 +373,7 @@ li.header-nav {
 }
 a.com {
 	color: var(--accent);
-	font-size: 17px;
+	font-size: 16px;
 	text-decoration: none;
 	display: inline;
 }
@@ -774,6 +779,7 @@ h6 a:hover {
 	margin: 0 auto;
 	margin-top: -7px;
 	padding-bottom: 10px;
+	text-transform: uppercase;
 }
 
 .caption-2 p:nth-child(2){
@@ -1005,7 +1011,7 @@ h3.notecount {
 .profile-content p {
 	margin-top: -3;
 	color: var(--text-lighter);
-	font-size: 17px;
+	font-size: 16px;
 }
 
 p.profile1 {
@@ -1338,6 +1344,7 @@ span.titlework-2 {
 	font-weight: normal;
 	font-size: clamp(13px, 3.5vw, 22px);
 	color: var(--text-light);
+	text-transform: uppercase;
 }
 
 div.titlework-3 {
